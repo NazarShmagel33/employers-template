@@ -1,0 +1,14 @@
+import "./app-info.css";
+
+const AppInfo = ({increased,employees}) => {
+    
+    return (
+        <div className="app-info">
+            <h1>Облік робітників в компанії "Company"</h1>
+            <h2>Загальне число робітників: {employees}</h2>
+            <h2>Премію отримає: {increased} </h2>
+        </div>
+    )
+}
+
+export default AppInfo;
